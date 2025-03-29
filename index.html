@@ -12,11 +12,83 @@
 <body>
     <div id="app">
         <main>
-            <div class="main-container">main</div>
+
+            <div class="main-container">
+                <div class="back">
+                    <img src="assets/icons/arrow-left-02.svg" alt="ícone para voltar a página">
+                    <span>Voltar</span>
+                </div>
+
+                <h1>Formulário de matrícula</h1>
+                <p>Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.</p>
+            </div>
+
+            <form action="" method="post" enctype="multipart/form-data">
+                <fieldset class="child-info">
+                    <legend>Informações da criança</legend>
+
+
+                    <div class="input-wrapper">
+                        <label for="fullname">Nome completo:</label>
+                        <input 
+                        id="fullname"
+                        name="fullname"
+                        type="text" 
+                        placeholder="Nome da criança.">
+                    </div>
+
+                    <div class="input wrapper">
+                        <label for="birth">Data de nascimento</label>
+                        <input 
+                        id="birth" 
+                        name="birth"
+                        type="date" 
+                        lang="pt-br">
+                    </div>
+
+                    <div class="select-wrapper">
+                        <label for="gender">Sexo</label>
+                        <select name="gender" id="gender">
+                            <option value="female">Feminimo</option>
+                            <option value="male">Masculino</option>
+                            <option value="na">Prefiro não responder</option>
+                        </select>
+
+                        <div class="textarea-wrapper">
+                            <label for="medical-info">Informações médicas</label>
+                            <textarea name="medical-info" id="medical-info"
+                                cols="30"
+                                rows="10"
+                                placeholder="Ex: Especifique informações médicas como alergias, doenças, medicamentos, etc.">                                
+                            </textarea>
+                        </div>
+                    </div>
+
+                    <div class="droparea-wrapper">
+                        <input type="file" id="birth-file" name="birth-file" accept="image/*">
+                        <img src="assets/icons/cloud-upload.svg" alt="ícone para download de arquivos direto da nuvem">
+                        <p>
+                            Clique aqui para <br>
+                            selecionar os arquivos.
+                        </p>
+                    </div>
+                
+
+                </fieldset>
+            </form>
+
         </main>
 
         <aside>
             <div class="aside-container">aside</div>
+            <header>
+                <img src="assets/logo.svg" alt="Logo Estrelas do Amanhã">   
+                <h2>Porque cada momento de <span>aprendizado</span> conta</h2>
+                <p>Inscreva seu filho em nossa escola e veja-o florescer em um ambiente acolhedor, seguro e estimulante.</p>
+            </header>
+
+            <img src="assets/ilustration.svg" alt="ilustração de uma professora sentada junto com crianças em roda de atividades">
+
         </aside>
     </div>
 </body>
