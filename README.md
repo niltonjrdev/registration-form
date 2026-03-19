@@ -19,3 +19,7 @@ A responsive enrollment form for a children's school, built with semantic HTML a
 ## 🚀 Live Preview
 
 https://niltonjrdev.github.io/registration-form/
+
+---
+
+🌐 [Leia em português](README.pt-BR.md)
